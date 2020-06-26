@@ -1,0 +1,2109 @@
+/* Font CSS @import must be at top of file, otherwise CSS will not work */
+@import url("//hostplusonline.sharepoint.com///hello.myfonts.net/count/2e1ba2");
+
+
+/* ===== reactivizr styles-hook do-not-remove ===== */
+/* line 10, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+
+/* line 20, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 32, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* line 47, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+input[type="search"] {
+  box-sizing: border-box;
+}
+
+/* line 52, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+
+/* line 59, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+input[type="file"] {
+  display: block;
+}
+
+/* line 64, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+input[type="range"] {
+  display: block;
+  width: 100%;
+}
+
+/* line 70, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+/* line 76, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 83, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+output {
+  display: block;
+  padding-top: 7px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+
+/* line 114, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+/* line 57, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* line 103, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+/* line 107, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+
+/* line 108, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+
+/* line 140, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-control[disabled], .form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: #eeeeee;
+  opacity: 1;
+}
+
+/* line 147, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-control[disabled],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
+
+/* line 156, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+textarea.form-control {
+  height: auto;
+}
+
+/* line 168, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 187, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  input[type="date"].form-control,
+  input[type="time"].form-control,
+  input[type="datetime-local"].form-control,
+  input[type="month"].form-control {
+    line-height: 34px;
+  }
+  /* line 191, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  input[type="date"].input-sm,
+  .input-group-sm input[type="date"],
+  input[type="time"].input-sm,
+  .input-group-sm
+  input[type="time"],
+  input[type="datetime-local"].input-sm,
+  .input-group-sm
+  input[type="datetime-local"],
+  input[type="month"].input-sm,
+  .input-group-sm
+  input[type="month"] {
+    line-height: 30px;
+  }
+  /* line 196, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  input[type="date"].input-lg,
+  .input-group-lg input[type="date"],
+  input[type="time"].input-lg,
+  .input-group-lg
+  input[type="time"],
+  input[type="datetime-local"].input-lg,
+  .input-group-lg
+  input[type="datetime-local"],
+  input[type="month"].input-lg,
+  .input-group-lg
+  input[type="month"] {
+    line-height: 46px;
+  }
+}
+
+/* line 209, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* line 218, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.radio,
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 225, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.radio label,
+.checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/* line 233, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9;
+}
+
+/* line 242, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.radio + .radio,
+.checkbox + .checkbox {
+  margin-top: -5px;
+}
+
+/* line 248, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.radio-inline,
+.checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/* line 258, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+/* line 270, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+input[type="radio"][disabled], input[type="radio"].disabled,
+fieldset[disabled] input[type="radio"],
+input[type="checkbox"][disabled],
+input[type="checkbox"].disabled,
+fieldset[disabled]
+input[type="checkbox"] {
+  cursor: not-allowed;
+}
+
+/* line 279, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.radio-inline.disabled,
+fieldset[disabled] .radio-inline,
+.checkbox-inline.disabled,
+fieldset[disabled]
+.checkbox-inline {
+  cursor: not-allowed;
+}
+
+/* line 289, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.radio.disabled label,
+fieldset[disabled] .radio label,
+.checkbox.disabled label,
+fieldset[disabled]
+.checkbox label {
+  cursor: not-allowed;
+}
+
+/* line 301, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-control-static {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+  min-height: 36px;
+}
+
+/* line 309, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-control-static.input-lg, .form-control-static.input-sm {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 71, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+/* line 79, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+select.input-sm {
+  height: 30px;
+  line-height: 30px;
+}
+
+/* line 84, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+textarea.input-sm,
+select[multiple].input-sm {
+  height: auto;
+}
+
+/* line 327, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-group-sm .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+/* line 334, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-group-sm select.form-control {
+  height: 30px;
+  line-height: 30px;
+}
+
+/* line 338, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-group-sm textarea.form-control,
+.form-group-sm select[multiple].form-control {
+  height: auto;
+}
+
+/* line 342, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-group-sm .form-control-static {
+  height: 30px;
+  min-height: 33px;
+  padding: 6px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* line 71, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.input-lg {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+/* line 79, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+select.input-lg {
+  height: 46px;
+  line-height: 46px;
+}
+
+/* line 84, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+textarea.input-lg,
+select[multiple].input-lg {
+  height: auto;
+}
+
+/* line 353, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-group-lg .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+/* line 360, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-group-lg select.form-control {
+  height: 46px;
+  line-height: 46px;
+}
+
+/* line 364, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-group-lg textarea.form-control,
+.form-group-lg select[multiple].form-control {
+  height: auto;
+}
+
+/* line 368, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-group-lg .form-control-static {
+  height: 46px;
+  min-height: 38px;
+  padding: 11px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+
+/* line 382, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.has-feedback {
+  position: relative;
+}
+
+/* line 387, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.has-feedback .form-control {
+  padding-right: 42.5px;
+}
+
+/* line 392, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none;
+}
+
+/* line 404, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.input-lg + .form-control-feedback,
+.input-group-lg + .form-control-feedback,
+.form-group-lg .form-control + .form-control-feedback {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+}
+
+/* line 411, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.input-sm + .form-control-feedback,
+.input-group-sm + .form-control-feedback,
+.form-group-sm .form-control + .form-control-feedback {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* line 8, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success.radio label,
+.has-success.checkbox label,
+.has-success.radio-inline label,
+.has-success.checkbox-inline label {
+  color: #3c763d;
+}
+
+/* line 21, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-success .form-control {
+  border-color: #3c763d;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 24, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-success .form-control:focus {
+  border-color: #2b542c;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}
+
+/* line 31, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-success .input-group-addon {
+  color: #3c763d;
+  border-color: #3c763d;
+  background-color: #dff0d8;
+}
+
+/* line 37, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-success .form-control-feedback {
+  color: #3c763d;
+}
+
+/* line 8, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline,
+.has-warning.radio label,
+.has-warning.checkbox label,
+.has-warning.radio-inline label,
+.has-warning.checkbox-inline label {
+  color: #8a6d3b;
+}
+
+/* line 21, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-warning .form-control {
+  border-color: #8a6d3b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 24, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-warning .form-control:focus {
+  border-color: #66512c;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+
+/* line 31, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-warning .input-group-addon {
+  color: #8a6d3b;
+  border-color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+
+/* line 37, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-warning .form-control-feedback {
+  color: #8a6d3b;
+}
+
+/* line 8, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+  color: #a94442;
+}
+
+/* line 21, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-error .form-control {
+  border-color: #a94442;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 24, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-error .form-control:focus {
+  border-color: #843534;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+
+/* line 31, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-error .input-group-addon {
+  color: #a94442;
+  border-color: #a94442;
+  background-color: #f2dede;
+}
+
+/* line 37, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_forms.scss */
+.has-error .form-control-feedback {
+  color: #a94442;
+}
+
+/* line 433, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.has-feedback label ~ .form-control-feedback {
+  top: 25px;
+}
+
+/* line 436, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0;
+}
+
+/* line 447, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #b0b2b2;
+}
+
+@media (min-width: 768px) {
+  /* line 472, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  /* line 479, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  /* line 486, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .form-control-static {
+    display: inline-block;
+  }
+  /* line 490, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .input-group {
+    display: inline-table;
+    vertical-align: middle;
+  }
+  /* line 494, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .input-group .input-group-addon,
+  .form-inline .input-group .input-group-btn,
+  .form-inline .input-group .form-control {
+    width: auto;
+  }
+  /* line 502, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .input-group > .form-control {
+    width: 100%;
+  }
+  /* line 506, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  /* line 513, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .radio,
+  .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  /* line 520, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .radio label,
+  .form-inline .checkbox label {
+    padding-left: 0;
+  }
+  /* line 524, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .radio input[type="radio"],
+  .form-inline .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+  }
+  /* line 531, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+
+/* line 553, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+
+/* line 563, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-horizontal .radio,
+.form-horizontal .checkbox {
+  min-height: 27px;
+}
+
+/* line 569, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 14, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.form-horizontal .form-group:before, .form-horizontal .form-group:after {
+  content: " ";
+  display: table;
+}
+
+/* line 19, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.form-horizontal .form-group:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  /* line 576, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+  }
+}
+
+/* line 587, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+.form-horizontal .has-feedback .form-control-feedback {
+  right: 15px;
+}
+
+@media (min-width: 768px) {
+  /* line 597, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-horizontal .form-group-lg .control-label {
+    padding-top: 14.333333px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 605, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .form-horizontal .form-group-sm .control-label {
+    padding-top: 6px;
+    font-size: 13px;
+  }
+}
+
+/* line 7, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+/* line 20, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropup,
+.dropdown {
+  position: relative;
+}
+
+/* line 26, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-toggle:focus {
+  outline: 0;
+}
+
+/* line 31, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 16px;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+
+/* line 54, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+
+/* line 60, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+/* line 65, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 24px;
+  color: #333333;
+  white-space: nowrap;
+}
+
+/* line 78, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+
+/* line 88, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #337ab7;
+}
+
+/* line 103, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+
+/* line 110, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+
+/* line 123, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.open > .dropdown-menu {
+  display: block;
+}
+
+/* line 128, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.open > a {
+  outline: 0;
+}
+
+/* line 137, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-menu-right {
+  left: auto;
+  right: 0;
+}
+
+/* line 147, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-menu-left {
+  left: 0;
+  right: auto;
+}
+
+/* line 153, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 13px;
+  line-height: 24px;
+  color: #777777;
+  white-space: nowrap;
+}
+
+/* line 163, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+
+/* line 173, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+/* line 186, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}
+
+/* line 193, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropup .dropdown-menu,
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 2px;
+}
+
+@media (min-width: 768px) {
+  /* line 207, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+  .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  /* line 212, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
+  .navbar-right .dropdown-menu-left {
+    left: 0;
+    right: auto;
+  }
+}
+
+/* line 9, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* line 14, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.nav:before, .nav:after {
+  content: " ";
+  display: table;
+}
+
+/* line 19, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.nav:after {
+  clear: both;
+}
+
+/* line 15, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav > li {
+  position: relative;
+  display: block;
+}
+
+/* line 19, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+/* line 23, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* line 31, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav > li.disabled > a {
+  color: #777777;
+}
+
+/* line 34, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+  color: #777777;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+/* line 46, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: transparent;
+  border-color: #002855;
+}
+
+/* line 59, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+/* line 66, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav > li > a > img {
+  max-width: none;
+}
+
+/* line 76, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 78, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+/* line 84, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 24px;
+  border: 1px solid transparent;
+  border-radius: 0 0 0 0;
+}
+
+/* line 89, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #ddd;
+}
+
+/* line 96, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #555555;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+
+/* line 118, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-pills > li {
+  float: left;
+}
+
+/* line 122, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+
+/* line 125, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+
+/* line 131, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+/* line 144, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-stacked > li {
+  float: none;
+}
+
+/* line 146, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+
+/* line 160, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-justified, .nav-tabs.nav-justified {
+  width: 100%;
+}
+
+/* line 163, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-justified > li, .nav-tabs.nav-justified > li {
+  float: none;
+}
+
+/* line 165, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* line 171, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+
+@media (min-width: 768px) {
+  /* line 177, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+  .nav-justified > li, .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  /* line 180, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+  .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+
+/* line 190, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-tabs-justified, .nav-tabs.nav-justified {
+  border-bottom: 0;
+}
+
+/* line 193, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 0;
+}
+
+/* line 199, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+.nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+
+@media (min-width: 768px) {
+  /* line 206, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 0 0 0 0;
+  }
+  /* line 210, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+
+/* line 224, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.tab-content > .tab-pane {
+  display: none;
+}
+
+/* line 227, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.tab-content > .active {
+  display: block;
+}
+
+/* line 237, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/* line 11, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+/* line 14, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.navbar:before, .navbar:after {
+  content: " ";
+  display: table;
+}
+
+/* line 19, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.navbar:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  /* line 11, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar {
+    border-radius: 4px;
+  }
+}
+
+/* line 14, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.navbar-header:before, .navbar-header:after {
+  content: " ";
+  display: table;
+}
+
+/* line 19, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.navbar-header:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  /* line 31, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-header {
+    float: left;
+  }
+}
+
+/* line 50, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-collapse {
+  overflow-x: visible;
+  padding-right: 0;
+  padding-left: 0;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 14, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.navbar-collapse:before, .navbar-collapse:after {
+  content: " ";
+  display: table;
+}
+
+/* line 19, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.navbar-collapse:after {
+  clear: both;
+}
+
+/* line 59, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-collapse.in {
+  overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  /* line 50, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
+  /* line 68, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  /* line 75, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  /* line 81, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-static-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* line 92, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: 340px;
+}
+
+@media (max-device-width: 480px) and (orientation: landscape) {
+  /* line 92, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    max-height: 200px;
+  }
+}
+
+/* line 108, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.container > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container-fluid > .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 108, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .container > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/* line 128, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-static-top {
+  z-index: 1000;
+  border-width: 0 0 1px;
+}
+
+@media (min-width: 768px) {
+  /* line 128, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-static-top {
+    border-radius: 0;
+  }
+}
+
+/* line 138, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+@media (min-width: 768px) {
+  /* line 138, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    border-radius: 0;
+  }
+}
+
+/* line 150, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+/* line 154, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+}
+
+/* line 163, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-brand {
+  float: left;
+  padding: 15px 0;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px;
+}
+
+/* line 170, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+
+/* line 175, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-brand > img {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  /* line 180, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+  }
+}
+
+/* line 193, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 0;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+
+/* line 206, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-toggle:focus {
+  outline: 0;
+}
+
+/* line 211, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+/* line 217, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+  /* line 193, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+/* line 232, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-nav {
+  margin: 7.5px 0;
+}
+
+/* line 235, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+@media (max-width: 767px) {
+  /* line 243, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  /* line 251, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  /* line 255, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+  /* line 257, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 232, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  /* line 270, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-nav > li {
+    float: left;
+  }
+  /* line 272, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+/* line 286, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-form {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px 0;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  /* line 472, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  /* line 479, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  /* line 486, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .form-control-static {
+    display: inline-block;
+  }
+  /* line 490, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .input-group {
+    display: inline-table;
+    vertical-align: middle;
+  }
+  /* line 494, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .input-group .input-group-addon,
+  .navbar-form .input-group .input-group-btn,
+  .navbar-form .input-group .form-control {
+    width: auto;
+  }
+  /* line 502, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .input-group > .form-control {
+    width: 100%;
+  }
+  /* line 506, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  /* line 513, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .radio,
+  .navbar-form .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  /* line 520, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .radio label,
+  .navbar-form .checkbox label {
+    padding-left: 0;
+  }
+  /* line 524, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .radio input[type="radio"],
+  .navbar-form .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+  }
+  /* line 531, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 298, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-form .form-group {
+    margin-bottom: 5px;
+  }
+  /* line 302, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-form .form-group:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 286, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-form {
+    width: auto;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: none;
+  }
+}
+
+/* line 327, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/* line 332, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+  margin-bottom: 0;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* line 343, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* line 346, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-btn.btn-sm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 349, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-btn.btn-xs {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+/* line 359, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  /* line 359, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-text {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 379, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-left {
+    float: left !important;
+  }
+  /* line 382, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-right {
+    float: right !important;
+    margin-right: 0;
+  }
+  /* line 386, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-right ~ .navbar-right {
+    margin-right: 0;
+  }
+}
+
+/* line 397, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default {
+  background-color: #fff;
+  border-color: #e7e7e7;
+}
+
+/* line 401, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-brand {
+  color: #002855;
+}
+
+/* line 403, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+
+/* line 410, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-text {
+  color: #777;
+}
+
+/* line 415, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #002855;
+}
+
+/* line 418, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+
+/* line 425, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #fff;
+}
+
+/* line 433, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+
+/* line 442, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+
+/* line 444, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+}
+
+/* line 448, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #002855;
+}
+
+/* line 453, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+
+/* line 462, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #fff;
+  color: #555;
+}
+
+@media (max-width: 767px) {
+  /* line 473, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #002855;
+  }
+  /* line 475, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  /* line 482, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+  }
+  /* line 490, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+
+/* line 506, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-link {
+  color: #002855;
+}
+
+/* line 508, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .navbar-link:hover {
+  color: #333;
+}
+
+/* line 513, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .btn-link {
+  color: #002855;
+}
+
+/* line 515, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
+  color: #333;
+}
+
+/* line 521, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:hover,
+fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #ccc;
+}
+
+/* line 531, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse {
+  background-color: #222;
+  border-color: #090909;
+}
+
+/* line 535, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-brand {
+  color: #9d9d9d;
+}
+
+/* line 537, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+/* line 544, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-text {
+  color: #9d9d9d;
+}
+
+/* line 549, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #9d9d9d;
+}
+
+/* line 552, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+/* line 559, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #090909;
+}
+
+/* line 567, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+
+/* line 577, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-toggle {
+  border-color: #333;
+}
+
+/* line 579, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #333;
+}
+
+/* line 583, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+/* line 588, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+
+/* line 596, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #090909;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  /* line 607, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #090909;
+  }
+  /* line 610, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #090909;
+  }
+  /* line 613, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #9d9d9d;
+  }
+  /* line 615, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  /* line 622, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #090909;
+  }
+  /* line 630, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+}
+
+/* line 641, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-link {
+  color: #9d9d9d;
+}
+
+/* line 643, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .navbar-link:hover {
+  color: #fff;
+}
+
+/* line 648, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .btn-link {
+  color: #9d9d9d;
+}
+
+/* line 650, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
+  color: #fff;
+}
+
+/* line 656, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
+.navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-inverse .btn-link:hover,
+fieldset[disabled] .navbar-inverse .btn-link:focus {
+  color: #444;
+}
+
+/* line 1, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.swatch-container {
+  overflow: hidden;
+  border: 1px solid #eaeaea;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+/* line 8, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.swatch {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.swatch.white {
+  border: 1px solid #D9D9D9;
+}
+
+/* line 15, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.swatch-label {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.yellow-light {
+  background-color: #ffe24e;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.yellow {
+  background-color: #ffd000;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.yellow-dark {
+  background-color: #fcb40e;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.blue {
+  background-color: #002855;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.red {
+  background-color: #e56a54;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.purple {
+  background-color: #8f8abc;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.green {
+  background-color: #32a497;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.gray-lighter {
+  background-color: #eaeaea;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.gray-light {
+  background-color: #d4d5d4;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.gray {
+  background-color: #b7b9b8;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.gray-dark {
+  background-color: #939594;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.gray-darker {
+  background-color: #707372;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.gray-darkest {
+  background-color: #686A69;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.gray-black {
+  background-color: #333;
+}
+
+/* line 43, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/src/_swatch.scss */
+.black {
+  background-color: #000;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.light-gray {
+  background-color: #978C87;
+}
+
+.dark-gray {
+  background-color: #707372;
+}
+
+.mid-blue {
+  background-color: #0071CE;
+}
+
+.sky-blue {
+  background-color: #7BA5DE;
+}
+
+.light-blue {
+  background-color: #B1C9EA;
+}
+
+/* line 23, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+html,
+body {
+  height: 100%;
+}
+
+/* line 31, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .nav > li > a {
+  padding: 10px 0;
+}
+
+/* line 36, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .navbar-brand {
+  position: relative;
+  padding: 0;
+}
+
+/* line 40, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .navbar-brand span {
+  display: block;
+  padding: 20px 0;
+  padding-left: 65px;
+}
+
+/* line 48, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .logo-image-small {
+  position: absolute;
+  top: 12px;
+  width: 43px;
+  height: 36px;
+  opacity: 1;
+}
+
+/* line 58, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .menu-closed {
+  display: none;
+}
+
+/* line 62, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .navbar-toggle {
+  padding: 16px 0 16px 10px;
+  margin: 0;
+  border: none;
+}
+
+/* line 84, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .navbar-toggle.active .menu-open {
+  display: none;
+}
+
+/* line 85, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .navbar-toggle.active .menu-closed {
+  display: block;
+}
+
+/* line 91, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 0;
+}
+
+/* line 99, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .footer p {
+  margin-bottom: 0;
+}
+
+/* line 106, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .page-wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 111, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .main {
+  padding-bottom: 86px;
+  margin-bottom: 0;
+}
+
+/* line 117, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide h1 {
+  margin-bottom: 60px;
+}
+
+/* line 121, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide pre {
+  padding: 20px;
+  background-color: #eaeaea;
+}
+
+/* line 126, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide label {
+  font-weight: normal;
+}
+
+/* line 130, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .section-heading {
+  color: #000;
+  background-color: #ffd000;
+  padding: 15px 15px;
+}
+
+/* line 136, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .item-list,
+.styleguide .item-separator {
+  margin-bottom: 60px;
+}
+
+/* line 141, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .item-separator-sm {
+  margin-bottom: 30px;
+}
+
+/* line 145, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .item-separator-lg {
+  margin-bottom: 100px;
+}
+
+/* line 149, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .banner-wrapper {
+  margin-bottom: 60px;
+}
+
+/* line 153, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide .banner-content {
+  position: relative;
+  height: 85px;
+}
+
+/* line 158, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide.icons-and-illustrations .main .icon {
+  margin: 0 15px;
+}
+
+/* line 161, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide.icons-and-illustrations .main .icon:first-child {
+  margin-left: 0;
+}
+
+/* line 167, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide.templates img {
+  margin: 0 auto 30px;
+  border: 1px solid #d4d5d4;
+}
+
+/* line 175, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+.styleguide.colours .main .row {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  /* line 187, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+  .styleguide .icon-dd-nav {
+    top: 15px;
+    right: 0;
+    position: absolute;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 203, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+  .styleguide .navbar-nav > li {
+    margin-left: 30px;
+  }
+  /* line 207, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+  .styleguide .navbar-nav > li:first-child {
+    margin-left: 0;
+  }
+  /* line 211, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+  .styleguide .navbar-nav > li > a {
+    font-size: 20px;
+  }
+  /* line 220, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+  .styleguide .navbar-brand span {
+    padding: 31px 0;
+    padding-left: 90px;
+    font-size: 20px;
+  }
+  /* line 228, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+  .styleguide .logo-image-small {
+    top: 10px;
+    width: 71px;
+    height: 60px;
+  }
+  /* line 234, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+  .styleguide #site-nav {
+    padding: 21px 0;
+  }
+  /* line 238, E:/IDC/workspace/RHWS_Staging/Source/FEDResources/styleguide_templates/assets/css/styleguide-styles.scss */
+  .styleguide .banner-content {
+    height: 110px;
+  }
+}
